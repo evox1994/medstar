@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="imagetoolbar" content="no">
+		<meta name="msthemecompatible" content="no">
+		<meta name="cleartype" content="on">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="format-detection" content="address=no">
+		<meta name="google" value="notranslate">
+		<meta name="theme-color" content="#ffffff">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<title>CSSSR Project Template</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&amp;amp;subset=cyrillic" rel="stylesheet">
+		<link href="/assets/styles/vendor.css" rel="stylesheet">
+		<link href="/assets/styles/app.min.css" rel="stylesheet">
+	</head>
+
+	<body class="page">
+		<div data-remodal-id="signup" class="modal remodal"><button data-remodal-action="close" class="modal-close remodal-close">Закрыть</button>
+			<div class="modal-signup">
+				<h2 class="title">Запишитесь на приём к специалисту</h2>
+				<h3 class="sub-title">Заполните заявку и нажмите “отправить”</h3>
+				<div class="modal-signup__info">
+					<div class="modal-info-item">
+						<div class="modal-info-item__img"><img src="/assets/images/operator-avatar.png" alt="" /></div>
+						<p class="modal-info-item__text">Наш специалист свяжется с вами в ближайшее время</p>
+					</div>
+					<div class="modal-info-item">
+						<div class="modal-info-item__img"><img src="/assets/images/schedule.png" alt="" /></div>
+						<p class="modal-info-item__text">И запишет на любое удобное для вас время</p>
+					</div>
+				</div>
+				<div class="modal-signup__form">
+					<form action="/" method="post"><input type="text" name="name" placeholder="Ваше имя" class="contacts__input base-input required" /><input
+						 type="tel" name="phone" placeholder="Ваш телефон" class="contacts__input base-input required" /><button type="submit"
+						 class="contacts__input base-btn"><span class="text">Записаться на прием</span></button>
+						<div class="policy active">
+							<div class="policy__check"></div>
+							<p class="policy__text">отправляя заявку, вы соглашаетесь с <a href="/policy.html">политикой конфиденциальности</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div data-remodal-id="child-popup" class="modal remodal"><button data-remodal-action="close" class="modal-close remodal-close">Закрыть</button>
+			<div class="modal__img"><img src="/assets/images/m-img1.jpg" alt="" /></div>
+			<div class="modal-service">
+				<div class="modal-service__item">
+					<div class="modal-service-item i-1">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+					<div class="modal-service-item i-1">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+					<div class="modal-service-item i-1">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+				</div>
+				<div class="modal-service__item">
+					<div class="modal-service-item i-2">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+					<div class="modal-service-item i-2">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+					<div class="modal-service-item i-2">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+				</div>
+				<div class="modal-service__item">
+					<div class="modal-service-item i-3">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+					<div class="modal-service-item i-3">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+					<div class="modal-service-item i-3">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-remodal-id="service-popup" class="modal remodal"><button data-remodal-action="close" class="modal-close remodal-close">Закрыть</button>
+			<div class="modal__img"><img src="/assets/images/m-img2.jpg" alt="" /></div>
+			<div class="modal-service">
+				<div class="modal-service__item">
+					<div class="modal-service-item i-1">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+					<div class="modal-service-item i-1">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+					<div class="modal-service-item i-1">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+				</div>
+				<div class="modal-service__item">
+					<div class="modal-service-item i-2">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+					<div class="modal-service-item i-2">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+					<div class="modal-service-item i-2">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+				</div>
+				<div class="modal-service__item">
+					<div class="modal-service-item i-3">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+					<div class="modal-service-item i-3">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+					<div class="modal-service-item i-3">
+						<p class="modal-service-item__title">Диагностика</p>
+						<div class="modal-service-item__content"><a href="/" class="modal-service-item__item">Консультация стоматолога</a><a
+							 href="/" class="modal-service-item__item">Консультация стоматолога</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-remodal-id="test" class="test-modal modal remodal">
+			<div class="container"><button data-remodal-action="close" class="modal-close remodal-close"></button>
+				<form action="" method="post" class="test-container">
+					<div class="test-step">
+						<div class="test-step__item">
+							<div class="test-step__container">
+								<p class="title">Выберите зубы, которые беспокоят</p>
+								<div class="step-tooth-container">
+									<p class="step-tooth-container__sign top-left">верхняя правая</p>
+									<p class="step-tooth-container__sign top-right">верхняя левая</p>
+									<p class="step-tooth-container__sign bottom-left">нижняя правая</p>
+									<p class="step-tooth-container__sign bottom-right">нижняя левая</p>
+									<div class="step-tooth">
+										<div class="step-tooth__container"><img src="/assets/images/tooth.jpg" alt="" /></div>
+										<div class="tooth-btn t-1">
+											<p class="tooth-btn__sign">1</p>
+										</div>
+										<div class="tooth-btn t-2">
+											<p class="tooth-btn__sign">2</p>
+										</div>
+										<div class="tooth-btn t-3">
+											<p class="tooth-btn__sign">3</p>
+										</div>
+										<div class="tooth-btn t-4">
+											<p class="tooth-btn__sign">4</p>
+										</div>
+										<div class="tooth-btn t-5">
+											<p class="tooth-btn__sign">5</p>
+										</div>
+										<div class="tooth-btn t-6">
+											<p class="tooth-btn__sign">6</p>
+										</div>
+										<div class="tooth-btn t-7">
+											<p class="tooth-btn__sign">7</p>
+										</div>
+										<div class="tooth-btn t-8">
+											<p class="tooth-btn__sign">8</p>
+										</div>
+										<div class="tooth-btn t-9">
+											<p class="tooth-btn__sign">9</p>
+										</div>
+										<div class="tooth-btn t-10">
+											<p class="tooth-btn__sign">10</p>
+										</div>
+										<div class="tooth-btn t-11">
+											<p class="tooth-btn__sign">11</p>
+										</div>
+										<div class="tooth-btn t-12">
+											<p class="tooth-btn__sign">12</p>
+										</div>
+										<div class="tooth-btn t-13">
+											<p class="tooth-btn__sign">13</p>
+										</div>
+										<div class="tooth-btn t-14">
+											<p class="tooth-btn__sign">14</p>
+										</div>
+										<div class="tooth-btn t-15">
+											<p class="tooth-btn__sign">15</p>
+										</div>
+										<div class="tooth-btn t-16">
+											<p class="tooth-btn__sign">16</p>
+										</div>
+										<div class="tooth-btn t-17">
+											<p class="tooth-btn__sign">17</p>
+										</div>
+										<div class="tooth-btn t-18">
+											<p class="tooth-btn__sign">18</p>
+										</div>
+										<div class="tooth-btn t-19">
+											<p class="tooth-btn__sign">19</p>
+										</div>
+										<div class="tooth-btn t-20">
+											<p class="tooth-btn__sign">20</p>
+										</div>
+										<div class="tooth-btn t-21">
+											<p class="tooth-btn__sign">21</p>
+										</div>
+										<div class="tooth-btn t-22">
+											<p class="tooth-btn__sign">22</p>
+										</div>
+										<div class="tooth-btn t-23">
+											<p class="tooth-btn__sign">23</p>
+										</div>
+										<div class="tooth-btn t-24">
+											<p class="tooth-btn__sign">24</p>
+										</div>
+										<div class="tooth-btn t-25">
+											<p class="tooth-btn__sign">25</p>
+										</div>
+										<div class="tooth-btn t-26">
+											<p class="tooth-btn__sign">26</p>
+										</div>
+										<div class="tooth-btn t-27">
+											<p class="tooth-btn__sign">27</p>
+										</div>
+										<div class="tooth-btn t-28">
+											<p class="tooth-btn__sign">28</p>
+										</div>
+										<div class="tooth-btn t-29">
+											<p class="tooth-btn__sign">29</p>
+										</div>
+										<div class="tooth-btn t-30">
+											<p class="tooth-btn__sign">30</p>
+										</div>
+										<div class="tooth-btn t-31">
+											<p class="tooth-btn__sign">31</p>
+										</div>
+										<div class="tooth-btn t-32">
+											<p class="tooth-btn__sign">32</p>
+										</div>
+									</div>
+								</div><a href="/" class="test-step__btn base-btn next-btn"><span class="text">Далее</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="test-step">
+						<div class="test-step__item">
+							<div class="test-step__container">
+								<p class="title">Кому необходимо лечение?</p>
+								<div class="step-qws step-qws-1">
+									<div class="step-qw active">
+										<div class="step-qw__check"></div><input type="checkbox" name="group1" checked="checked" value="" class="step-qw__input" />
+										<p class="step-qw__text">Ребенку (от 3 до 10 лет)</p>
+									</div>
+									<div class="step-qw">
+										<div class="step-qw__check"></div><input type="checkbox" name="group1" value="" class="step-qw__input" />
+										<p class="step-qw__text">Подростку (от 10 до 18 лет)</p>
+									</div>
+									<div class="step-qw">
+										<div class="step-qw__check"></div><input type="checkbox" name="group1" value="" class="step-qw__input" />
+										<p class="step-qw__text">Взрослому человеку (от 18)</p>
+									</div>
+								</div><a href="/" class="test-step__btn base-btn next-btn"><span class="text">Далее</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="test-step">
+						<div class="test-step__item">
+							<div class="test-step__container">
+								<p class="title">Что вас беспокоит?</p>
+								<div class="step-qws step-qws-2">
+									<div class="step-qw active">
+										<div class="step-qw__check"></div><input type="checkbox" name="group2" checked="checked" value="" class="step-qw__input" />
+										<p class="step-qw__text">Зубы болят</p>
+									</div>
+									<div class="step-qw">
+										<div class="step-qw__check"></div><input type="checkbox" name="group2" value="" class="step-qw__input" />
+										<p class="step-qw__text">Зубы выглядят грязными</p>
+									</div>
+									<div class="step-qw">
+										<div class="step-qw__check"></div><input type="checkbox" name="group2" value="" class="step-qw__input" />
+										<p class="step-qw__text">Зубы болят</p>
+									</div>
+									<div class="step-qw">
+										<div class="step-qw__check"></div><input type="checkbox" name="group2" value="" class="step-qw__input" />
+										<p class="step-qw__text">Зубы болят</p>
+									</div>
+									<div class="step-qw">
+										<div class="step-qw__check"></div><input type="checkbox" name="group2" value="" class="step-qw__input" />
+										<p class="step-qw__text">Зубы болят</p>
+									</div>
+									<div class="step-qw">
+										<div class="step-qw__check"></div><input type="checkbox" name="group2" value="" class="step-qw__input" />
+										<p class="step-qw__text">Зубы болят</p>
+									</div>
+									<div class="step-qw">
+										<div class="step-qw__check"></div><input type="checkbox" name="group2" value="" class="step-qw__input" />
+										<p class="step-qw__text">Зубы болят</p>
+									</div>
+								</div><a href="/" class="test-step__btn base-btn next-btn"><span class="text">Далее</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="test-step">
+						<div class="test-step__item">
+							<div class="test-step__container">
+								<p class="title">Напишите возраст пациента</p>
+								<div class="step-qws step-qws-3"><input type="text" name="age" id="age" placeholder="Введите возраст" class="base-input" /></div><a
+								 href="/" class="test-step__btn base-btn next-btn"><span class="text">Далее</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="test-step">
+						<div class="test-step__item">
+							<div class="test-step__container">
+								<div class="modal-signup">
+									<h2 class="title">Запишитесь на приём к специалисту</h2>
+									<h3 class="sub-title">Заполните заявку и нажмите “отправить”</h3>
+									<div class="modal-signup__info">
+										<div class="modal-info-item">
+											<div class="modal-info-item__img"><img src="/assets/images/operator-avatar.png" alt="" /></div>
+											<p class="modal-info-item__text">Наш специалист свяжется с вами в ближайшее время</p>
+										</div>
+										<div class="modal-info-item">
+											<div class="modal-info-item__img"><img src="/assets/images/schedule.png" alt="" /></div>
+											<p class="modal-info-item__text">И запишет на любое удобное для вас время</p>
+										</div>
+									</div>
+									<div class="modal-signup__form"><input type="hidden" name="tooth" value="" /><input type="text" name="name"
+										 placeholder="Ваше имя" class="contacts__input base-input required" /><input type="tel" name="phone"
+										 placeholder="Ваш телефон" class="contacts__input base-input required" /><button type="submit" class="contacts__input base-btn"><span
+											 class="text">Записаться на прием</span></button>
+										<div class="policy active">
+											<div class="policy__check"></div>
+											<p class="policy__text">отправляя заявку, вы соглашаетесь с <a href="/policy.html">политикой
+													конфиденциальности</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="nav">
+			<div class="nav__container container"><a href="/" class="nav-link">О клинике</a><a href="/" class="nav-link">технологии</a><a
+				 href="/" class="nav-link">Новости</a><a href="/" class="nav-link">Вакансии</a><a href="/" class="nav-link">Отзывы</a><a
+				 href="/" class="nav-link">Блог</a><a href="/" class="nav-link">Зуботехнический центр</a><a href="/" class="nav-link">Написать
+					директору</a><a href="/" class="nav-link">Магазин медтехники</a></div>
+		</div>
+		<header class="header">
+			<div class="header__container container"><a href="javascript:void(0);" data-remodal-target="signup" class="header__logo"><img
+					 src="/assets/images/logo.png" alt="" /></a>
+				<div class="h-info"><a href="tel: " class="h-info__phone">+ 7 (3822) 00-00-00</a>
+					<p class="h-info__address">ул. Набережная р. Ушайки, 18а</p>
+				</div>
+				<div class="h-info"><a href="tel: " class="h-info__phone">+ 7 (3822) 00-00-00</a>
+					<p class="h-info__address">ул. Набережная р. Ушайки, 18а</p>
+				</div>
+				<div class="h-info"><a href="tel: " class="h-info__phone">+ 7 (3822) 00-00-00</a>
+					<p class="h-info__address">ул. Набережная р. Ушайки, 18а</p>
+				</div>
+			</div>
+			<div class="h-nav">
+				<div class="h-nav__container container"><a href="/" class="h-nav-link adult">Для взрослых</a><a href="/" class="h-nav-link teen">Для
+						подростков</a><a href="/" class="h-nav-link child">Для детей</a><a href="/" class="h-nav-link">Врачи</a><a href="/"
+					 class="h-nav-link">Цены</a><a href="/" class="h-nav-link">Примеры работ</a><a href="/" class="h-nav-link">Скидки
+						и акции</a><a href="/" class="h-nav-link">Отзывы</a><a href="/" class="h-nav-link">Контакты</a></div>
+			</div>
+		</header>
+		<div class="banner banner-child-service">
+			<div class="container">
+				<div class="breadcrumbs"><a href="/" class="breadcrumbs__link">Главная</a>
+					<div class="breadcrumbs__line">></div>
+					<p class="breadcrumbs__link">Услуги для детей</p>
+				</div>
+				<h1 class="banner__title">стоматология Томск</h1>
+				<div class="banner-wrapper"><button class="banner-arrow arr-l"></button><button class="banner-arrow arr-r"></button>
+					<div class="banner-slider">
+						<div class="slider-item">
+							<div class="banner-item">
+								<div class="banner-item__info">
+									<h3 class="banner-item__title">Безопасное лечение зубов<br />у детей от 3 до 10 лет</h3>
+									<p class="banner-item__text">В раннем возрасте важно правильно сформировать зубы ребенка, чтобы в будущем у
+										него не возникли более серьезные проблемы</p><a href="/" class="banner-item__btn base-btn"><span class="text">Рассчитать
+											стоимость</span></a>
+								</div>
+								<div class="banner-item__img"><img src="/assets/images/ex1.png" alt="" /></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="definition-child-service">
+			<div class="container">
+				<h1 class="definition-child-service__main-title title">Определение</h1>
+				<h3 class="sub-title-block"><span>Молочные зубы </span>прорезаются у детей до 6 лет и помогают сформировать
+					правильный прикус у ребенка. Как правило это 20 молочных зубов, которые выпадают до 11 лет и в возрасте 12 лет у
+					рееёнка формируется постоянный прикус.</h3>
+				<div class="def-video">
+					<div class="thumb-wrap"><iframe width="400" height="250" src="https://www.youtube.com/embed/v4k9pL9kHdY"
+						 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+				</div>
+				<p class="def-video-title">Как происходит лечение молочных зубов?</p>
+				<div class="definition-child-service__container">
+					<div class="definition-child-service-problem">
+						<div class="definition-child-service-problem__definition">
+							<div class="definition-child-service-problem-def">
+								<div class="definition-child-service-problem-def__img"><img src="/assets/images/fcs-1.png" alt="" /></div>
+								<div class="definition-child-service-problem-def__content">
+									<h4 class="definition-child-service-problem-def__title">Неправильный прикус</h4>
+									<p class="definition-child-service-problem-def__text">Их разрушение и ранняя потеря в результате кариеса и его
+										осложнений с высокой вероятностью приводит к замедлению роста челюстей и формированию неправильного прикуса,
+										а также затрудняет полноценное пережевывание пищи и формирование речи.</p>
+								</div>
+							</div>
+							<div class="definition-child-service-problem-def">
+								<div class="definition-child-service-problem-def__img"><img src="/assets/images/fcs-2.png" alt="" /></div>
+								<div class="definition-child-service-problem-def__content">
+									<h4 class="definition-child-service-problem-def__title">Повреждение новых зубов</h4>
+									<p class="definition-child-service-problem-def__text">Осложнение кариеса молочных зубов может затронуть и
+										повредить зачатки постоянных зубов.</p><a href="/" class="definition-child-service-problem-def__btn base-btn"><span
+										 class="text">Записаться на прием</span></a>
+								</div>
+							</div>
+						</div>
+						<div class="definition-child-service-problem__problem">
+							<div class="definition-child-service-problem-prob">
+								<div class="definition-child-service-problem-prob__img"><img src="/assets/images/fcs-1.jpg" alt="" /></div>
+								<h4 class="definition-child-service-problem-prob__title">Ранние проблемы с постоянными зубами</h4>
+							</div>
+							<div class="definition-child-service-problem-prob">
+								<div class="definition-child-service-problem-prob__img"><img src="/assets/images/fcs-2.jpg" alt="" /></div>
+								<h4 class="definition-child-service-problem-prob__title">Ранние проблемы с постоянными зубами</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="definition-child-service">
+			<div class="container">
+				<h2 class="definition-child-service__title-right title">Как расположить ребенка к лечению?</h2>
+				<div class="definition-child-service__container">
+					<div class="definition-child-service-problem">
+						<div class="definition-child-service-problem__problem">
+							<div class="definition-child-service-problem-prob">
+								<div class="definition-child-service-problem-prob__img"><img src="/assets/images/fcs-3.jpg" alt="" /></div>
+								<h4 class="definition-child-service-problem-prob__title">Ранние проблемы с постоянными зубами</h4>
+							</div>
+						</div>
+						<div class="definition-child-service-problem__definition">
+							<div class="definition-child-service-problem-def">
+								<div class="definition-child-service-problem-def__img"><img src="/assets/images/fcs-4.png" alt="" /></div>
+								<div class="definition-child-service-problem-def__content">
+									<h4 class="definition-child-service-problem-def__title">Знакомство с детским стоматологом</h4>
+									<p class="definition-child-service-problem-def__text">Знакомство пройдет в комфортной обстановке, специалист в
+										игровой форме посчитает зубки с малышом и расскажет, ка их правильно лечить</p>
+								</div>
+							</div>
+							<div class="definition-child-service-problem-def">
+								<div class="definition-child-service-problem-def__img"><img src="/assets/images/fcs-3.png" alt="" /></div>
+								<div class="definition-child-service-problem-def__content">
+									<h4 class="definition-child-service-problem-def__title">Лечение во сне</h4>
+									<p class="definition-child-service-problem-def__text">Блягодаря лчению во сне все ваши детки даже не заметят,
+										какие манипуляции проводил доктор. Все пройдёт быстро и без слез.</p><a href="/" class="definition-child-service-problem-def__btn base-btn blue"><span
+										 class="text">Записаться на прием</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="definition-child-service">
+			<div class="container">
+				<h2 class="definition-child-service__title-left title">Способы лечения кариеса молочных зубов</h2>
+				<div class="definition-child-service__container">
+					<div class="definition-child-service-problem">
+						<div class="definition-child-service-problem__definition">
+							<div class="definition-child-service-problem-def">
+								<div class="definition-child-service-problem-def__img"><img src="/assets/images/fcs-5.png" alt="" /></div>
+								<div class="definition-child-service-problem-def__content">
+									<h4 class="definition-child-service-problem-def__title">При поверхностном и начальном кариесе применяются
+										реминерализация и глубокое фоторирование зубов</h4>
+									<p class="definition-child-service-problem-def__text">Их разрушение и ранняя потеря в результате кариеса и его
+										осложнений с высокой вероятностью приводит к замедлению роста челюстей и формированию неправильного прикуса,
+										а также затрудняет полноценное пережевывание пищи и формирование речи.<br />Их разрушение и ранняя потеря в
+										результате кариеса и его осложнений с высокой вероятностью приводит к замедлению роста челюстей и
+										формированию неправильного прикуса, а также затрудняет полноценное пережевывание пищи и формирование речи.</p>
+								</div>
+							</div>
+							<div class="definition-child-service-problem-def">
+								<div class="definition-child-service-problem-def__img"><img src="/assets/images/fcs-2.png" alt="" /></div>
+								<div class="definition-child-service-problem-def__content">
+									<h4 class="definition-child-service-problem-def__title">Средний и глубокий кариес требуют препарирования и
+										пломбирования зубов</h4>
+									<p class="definition-child-service-problem-def__text">Осложнение кариеса молочных зубов может затронуть и
+										повредить зачатки постоянных зубов.<br />Их разрушение и ранняя потеря в результате кариеса и его осложнений
+										с высокой вероятностью приводит к замедлению роста челюстей и формированию неправильного прикуса, а также
+										затрудняет полноценное пережевывание пищи и формирование речи.<br />Их разрушение и ранняя потеря в
+										результате кариеса и его осложнений с высокой вероятностью приводит к замедлению роста челюстей и
+										формированию неправильного прикуса, а также затрудняет полноценное пережевывание пищи и формирование речи.</p><a
+									 href="/" class="definition-child-service-problem-def__btn base-btn"><span class="text">Записаться на прием</span></a>
+								</div>
+							</div>
+						</div>
+						<div class="definition-child-service-problem__problem">
+							<div class="definition-child-service-problem-prob">
+								<div class="definition-child-service-problem-prob__img"><img src="/assets/images/fcs-4.jpg" alt="" /></div>
+								<h4 class="definition-child-service-problem-prob__title">Бюгельные протезы на замках</h4>
+							</div>
+							<div class="definition-child-service-problem-prob">
+								<div class="definition-child-service-problem-prob__img"><img src="/assets/images/fcs-5.jpg" alt="" /></div>
+								<h4 class="definition-child-service-problem-prob__title">Бюгельные протезы на замках</h4>
+							</div>
+							<p class="definition-child-service-problem-spec"><span>Специалисты </span>нашей современной клиники владеют
+								эффективными и безболезненными методами лечения <span>без использования мышьяка! </span>Мы применяем новейшие
+								технологии.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="child-service-steps">
+			<div class="child-service-wrapper">
+				<div class="container">
+					<h2 class="title">Как будет проходить лечение?</h2>
+					<div class="child-service-steps-slider big-img-container">
+						<div class="slider-item"><a href="/assets/images/css-img1.jpg" class="big-img"><img src="/assets/images/css-img1.jpg"
+								 alt="" /></a></div>
+						<div class="slider-item"><a href="/assets/images/css-img2.jpg" class="big-img"><img src="/assets/images/css-img2.jpg"
+								 alt="" /></a></div>
+						<div class="slider-item"><a href="/assets/images/css-img3.jpg" class="big-img"><img src="/assets/images/css-img3.jpg"
+								 alt="" /></a></div>
+						<div class="slider-item"><a href="/assets/images/css-img3.jpg" class="big-img"><img src="/assets/images/css-img3.jpg"
+								 alt="" /></a></div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="child-service-steps__container">
+					<div class="child-service-steps-item">
+						<div class="child-service-steps-item__icon up-img"><img src="/assets/images/css-i1.png" alt="" /></div>
+						<h3 class="child-advantage__title">Подарки при каждом посещении стоматолога</h3>
+						<p class="child-advantage__text">Мы хотим, чтобы для ребёнка посещение стоматолога было в радость и у него с
+							детства развилась привычка следить за своими зубами</p>
+					</div>
+					<div class="child-service-steps-item">
+						<div class="child-service-steps-item__icon up-img"><img src="/assets/images/css-i2.png" alt="" /></div>
+						<h3 class="child-advantage__title">Детский уголок с аквариумом</h3>
+						<p class="child-advantage__text">Мы хотим, чтобы для ребёнка посещение стоматолога было в радость и у него с
+							детства развилась привычка следить за своими зубами</p>
+					</div>
+					<div class="child-service-steps-item">
+						<div class="child-service-steps-item__icon up-img"><img src="/assets/images/css-i3.png" alt="" /></div>
+						<h3 class="child-advantage__title">Удаляем зубки магнитиками</h3>
+						<p class="child-advantage__text">Мы хотим, чтобы для ребёнка посещение стоматолога было в радость и у него с
+							детства развилась привычка следить за своими зубами</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="child-service-tech">
+			<div class="container">
+				<h2 class="title">Какие используем технологии?</h2>
+				<div class="service__type-wrapper"><button class="banner-arrow arr-l"></button><button class="banner-arrow arr-r"></button>
+					<div class="about__objects service__type">
+						<div class="slider-item">
+							<div class="child-advantage up-img">
+								<div class="child-advantage__img"><img src="/assets/images/cst-1.png" alt="" /></div>
+								<h3 class="child-advantage__title">Операционный
+									микроскоп</h3>
+								<p class="child-advantage__text">Мы хотим, чтобы для ребёнка посещение стоматолога было в радость и у него с
+									детства развилась привычка следить за своими зубами</p>
+							</div>
+						</div>
+						<div class="slider-item">
+							<div class="child-advantage up-img">
+								<div class="child-advantage__img"><img src="/assets/images/cst-2.png" alt="" /></div>
+								<h3 class="child-advantage__title">Эндонаконечник<br />J. Morita</h3>
+								<p class="child-advantage__text">Мы хотим, чтобы для ребёнка посещение стоматолога было в радость и у него с
+									детства развилась привычка следить за своими зубами</p>
+							</div>
+						</div>
+						<div class="slider-item">
+							<div class="child-advantage up-img">
+								<div class="child-advantage__img"><img src="/assets/images/cst-3.png" alt="" /></div>
+								<h3 class="child-advantage__title">Система<br />BeeFeel</h3>
+								<p class="child-advantage__text">Мы хотим, чтобы для ребёнка посещение стоматолога было в радость и у него с
+									детства развилась привычка следить за своими зубами</p>
+							</div>
+						</div>
+					</div>
+				</div><a href="/" class="child-service-tech__btn base-btn"><span class="text">Записаться на прием</span></a>
+			</div>
+		</div>
+		<div class="child-service-guarantee">
+			<div class="container">
+				<h2 class="title">Безопасность и гарантии</h2>
+				<div class="child-service-steps__container">
+					<div class="child-service-guarantee-item">
+						<div class="child-service-guarantee-item__img up-img"><img src="/assets/images/csg-1.png" alt="" /></div>
+						<h3 class="fact-item__title">Гарантия до 10 лет</h3>
+						<p class="fact-item__text">Наша клиника отвечает за качество работы наших врачей</p>
+					</div>
+					<div class="child-service-guarantee-item">
+						<div class="child-service-guarantee-item__img up-img"><img src="/assets/images/csg-2.png" alt="" /></div>
+						<h3 class="fact-item__title">Гибкий подход</h3>
+						<p class="fact-item__text">Выстраиваем план лечения исходя из вашего бюджета</p>
+					</div>
+					<div class="child-service-guarantee-item">
+						<div class="child-service-guarantee-item__img up-img"><img src="/assets/images/ah-4.png" alt="" /></div>
+						<h3 class="fact-item__title">Безопасно для здоровья</h3>
+						<p class="fact-item__text">Стирильные пакеты с инструментом вскрываются на глазах у пациента</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="child-service-cost">
+			<div class="container">
+				<h2 class="title">Стоимость лечения</h2>
+				<h3 class="sub-title">Для каждого, даже самого маленького или старшего члена семьи,<br />мы подберем нужную услугу
+					и поможем избавиться от боли в любой момент.</h3>
+				<div class="child-service-cost__container">
+					<div class="child-service-packet-container">
+						<div class="child-service-packet type-1">
+							<h4 class="child-service-packet__title">Strauman</h4>
+							<div class="child-service-packet__content">
+								<h5 class="child-service-packet__sub-title">Премиум</h5>
+								<p class="child-service-packet__text">Описани пакета. Огромное спасибо врачу и ассистенту за профессионализм и
+									комфорт во время лечения. Администратор приветливи любезен.</p>
+								<p class="child-service-packet__sign">Гарантия - 10 лет</p>
+							</div>
+							<div class="child-service-packet__bottom">
+								<p class="child-service-packet__price">9500</p><a href="/" class="child-service-packet__btn base-btn"><span
+									 class="text">Записаться</span></a>
+							</div>
+						</div>
+						<div class="child-service-packet type-2">
+							<h4 class="child-service-packet__title">Nobel</h4>
+							<div class="child-service-packet__content">
+								<h5 class="child-service-packet__sub-title">Стандарт</h5>
+								<p class="child-service-packet__text">Описани пакета. Огромное спасибо врачу и ассистенту за профессионализм и
+									комфорт во время лечения. Администратор приветливи любезен.</p>
+								<p class="child-service-packet__sign">Гарантия - 10 лет</p>
+							</div>
+							<div class="child-service-packet__bottom">
+								<p class="child-service-packet__price">6500</p><a href="/" class="child-service-packet__btn base-btn"><span
+									 class="text">Записаться</span></a>
+							</div>
+						</div>
+						<div class="child-service-packet type-3">
+							<h4 class="child-service-packet__title">Cortex</h4>
+							<div class="child-service-packet__content">
+								<h5 class="child-service-packet__sub-title">Эконом</h5>
+								<p class="child-service-packet__text">Описани пакета. Огромное спасибо врачу и ассистенту за профессионализм и
+									комфорт во время лечения. Администратор приветливи любезен.</p>
+								<p class="child-service-packet__sign">Гарантия - 10 лет</p>
+							</div>
+							<div class="child-service-packet__bottom">
+								<p class="child-service-packet__price">4500</p><a href="/" class="child-service-packet__btn base-btn"><span
+									 class="text">Записаться</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="doctors">
+			<div class="container">
+				<h2 class="title">Выберете себе лечащего врача</h2>
+				<div class="doctors__container">
+					<div class="doctor-item">
+						<div class="doctor-item__img"><img src="/assets/images/doctor.png" alt="" /></div>
+						<div class="doctor-item__info">
+							<h3 class="doctor-item__title">Сабитина <br />Ольга Олеговна</h3>
+							<h4 class="doctor-item__sub-title">Детский стоматолог<br />Клиника на Набережной, 18</h4>
+							<div class="doctor-item__advan-info">
+								<h5 class="doctor-item__advan-title">Лучший специалист в своей области</h5>
+								<div class="doctor-item__skills">
+									<div class="doctor-item__skill">
+										<p class="doctor-item__skill-title">Опыт</p>
+										<p class="doctor-item__skill-text">11 лет</p>
+									</div>
+									<div class="doctor-item__skill">
+										<p class="doctor-item__skill-title">Опыт</p>
+										<p class="doctor-item__skill-text">11 лет</p>
+									</div>
+									<div class="doctor-item__skill">
+										<p class="doctor-item__skill-title">Опыт</p>
+										<p class="doctor-item__skill-text">11 лет</p>
+									</div>
+								</div>
+							</div><a href="/" class="doctor-item__btn base-btn"><span class="text">Подробнее о враче</span></a>
+						</div>
+					</div>
+					<div class="doctor-item">
+						<div class="doctor-item__img"><img src="/assets/images/doctor.png" alt="" /></div>
+						<div class="doctor-item__info">
+							<h3 class="doctor-item__title">Сабитина <br />Ольга Олеговна</h3>
+							<h4 class="doctor-item__sub-title">Детский стоматолог<br />Клиника на Набережной, 18</h4>
+							<div class="doctor-item__advan-info">
+								<h5 class="doctor-item__advan-title">Лучший специалист в своей области</h5>
+								<div class="doctor-item__skills">
+									<div class="doctor-item__skill">
+										<p class="doctor-item__skill-title">Опыт</p>
+										<p class="doctor-item__skill-text">11 лет</p>
+									</div>
+									<div class="doctor-item__skill">
+										<p class="doctor-item__skill-title">Опыт</p>
+										<p class="doctor-item__skill-text">11 лет</p>
+									</div>
+									<div class="doctor-item__skill">
+										<p class="doctor-item__skill-title">Опыт</p>
+										<p class="doctor-item__skill-text">11 лет</p>
+									</div>
+								</div>
+							</div><a href="/" class="doctor-item__btn base-btn"><span class="text">Подробнее о враче</span></a>
+						</div>
+					</div>
+					<div class="doctor-item">
+						<div class="doctor-item__img"><img src="/assets/images/doctor.png" alt="" /></div>
+						<div class="doctor-item__info">
+							<h3 class="doctor-item__title">Сабитина <br />Ольга Олеговна</h3>
+							<h4 class="doctor-item__sub-title">Детский стоматолог<br />Клиника на Набережной, 18</h4>
+							<div class="doctor-item__advan-info">
+								<h5 class="doctor-item__advan-title">Лучший специалист в своей области</h5>
+								<div class="doctor-item__skills">
+									<div class="doctor-item__skill">
+										<p class="doctor-item__skill-title">Опыт</p>
+										<p class="doctor-item__skill-text">11 лет</p>
+									</div>
+									<div class="doctor-item__skill">
+										<p class="doctor-item__skill-title">Опыт</p>
+										<p class="doctor-item__skill-text">11 лет</p>
+									</div>
+									<div class="doctor-item__skill">
+										<p class="doctor-item__skill-title">Опыт</p>
+										<p class="doctor-item__skill-text">11 лет</p>
+									</div>
+								</div>
+							</div><a href="/" class="doctor-item__btn base-btn"><span class="text">Подробнее о враче</span></a>
+						</div>
+					</div>
+					<div class="doctor-item">
+						<div class="doctor-item__img"><img src="/assets/images/doctor.png" alt="" /></div>
+						<div class="doctor-item__info">
+							<h3 class="doctor-item__title">Сабитина <br />Ольга Олеговна</h3>
+							<h4 class="doctor-item__sub-title">Детский стоматолог<br />Клиника на Набережной, 18</h4>
+							<div class="doctor-item__advan-info">
+								<h5 class="doctor-item__advan-title">Лучший специалист в своей области</h5>
+								<div class="doctor-item__skills">
+									<div class="doctor-item__skill">
+										<p class="doctor-item__skill-title">Опыт</p>
+										<p class="doctor-item__skill-text">11 лет</p>
+									</div>
+									<div class="doctor-item__skill">
+										<p class="doctor-item__skill-title">Опыт</p>
+										<p class="doctor-item__skill-text">11 лет</p>
+									</div>
+									<div class="doctor-item__skill">
+										<p class="doctor-item__skill-title">Опыт</p>
+										<p class="doctor-item__skill-text">11 лет</p>
+									</div>
+								</div>
+							</div><a href="/" class="doctor-item__btn base-btn"><span class="text">Подробнее о враче</span></a>
+						</div>
+					</div>
+				</div><a href="/" class="doctors__btn base-btn bg-adult"><span class="text">Посмотреть всех врачей</span></a>
+			</div>
+		</div>
+		<div class="doctor-review">
+			<div class="container">
+				<div class="doctor-review-form">
+					<div class="doctor-review-form__container">
+						<p class="doctor-review-form__title title">Отзывы о враче:</p><a href="/" class="doctor-review-form__btn base-btn"><span
+							 class="text">Оставить отзыв</span></a>
+					</div>
+				</div>
+				<div class="doctor-review-item">
+					<div class="doctor-review-item__top">
+						<h3 class="doctor-review-item__title">
+							<div class="img"><img src="/assets/images/r-icon1.png" alt="" /></div>
+							<div class="text">Анна Николаевна</div>
+						</h3>
+						<p class="doctor-review-item__date doctor-review-text">(18.12.2018)</p>
+					</div>
+					<div class="doctor-review-item__block">
+						<div class="doctor-review-item-info">
+							<div class="doctor-review-item-info__row">
+								<p class="doctor-review-item-info__name doctor-review-text grey">Врач:</p><a href="/" class="doctor-review-item-info__value doctor-review-text">Доровских
+									Ярослава Анатольевна</a>
+							</div>
+							<div class="doctor-review-item-info__row">
+								<p class="doctor-review-item-info__name doctor-review-text grey">Услуга:</p><a href="/" class="doctor-review-item-info__value doctor-review-text">Удаление
+									кариеса молочных зубов</a>
+							</div>
+						</div>
+					</div>
+					<p class="doctor-review-item__block doctor-review-text grey">Огромное спасибо врачу и ассистенту за
+						профессионализм и комфорт во время лечения. Администраторы приветливы и любезны. Огромное спасибо врачу и
+						ассистенту за профессионализм и комфорт во время лечения. Администраторы приветливы и любезны.Огромное спасибо
+						врачу и ассистенту за профессионализм и комфорт во время лечения. Администраторы приветливы и любезны.</p>
+				</div>
+				<div class="doctor-review-item">
+					<div class="doctor-review-item__top">
+						<h3 class="doctor-review-item__title">
+							<div class="img"><img src="/assets/images/r-icon2.png" alt="" /></div>
+							<div class="text">Анна Николаевна</div>
+						</h3>
+						<p class="doctor-review-item__date doctor-review-text">(18.12.2018)</p>
+					</div>
+					<div class="doctor-review-item__block">
+						<div class="doctor-review-item-info">
+							<div class="doctor-review-item-info__row">
+								<p class="doctor-review-item-info__name doctor-review-text grey">Врач:</p><a href="/" class="doctor-review-item-info__value doctor-review-text">Доровских
+									Ярослава Анатольевна</a>
+							</div>
+							<div class="doctor-review-item-info__row">
+								<p class="doctor-review-item-info__name doctor-review-text grey">Услуга:</p><a href="/" class="doctor-review-item-info__value doctor-review-text">Удаление
+									кариеса молочных зубов</a>
+							</div>
+						</div>
+					</div>
+					<p class="doctor-review-item__block doctor-review-text grey">Огромное спасибо врачу и ассистенту за
+						профессионализм и комфорт во время лечения. Администраторы приветливы и любезны. Огромное спасибо врачу и
+						ассистенту за профессионализм и комфорт во время лечения. Администраторы приветливы и любезны.Огромное спасибо
+						врачу и ассистенту за профессионализм и комфорт во время лечения. Администраторы приветливы и любезны.</p>
+				</div><a href="/" class="doctor-review__btn base-btn"><span class="text">Показать все</span></a>
+			</div>
+		</div>
+		<div class="plan-title-area">
+			<div class="container"></div>
+			<h2 class="plan-title-area__title title">Запишитесь на первый прием, где мы составим план лечения<br />под ваш
+				бюджет</h2><a href="/" class="plan-title-area__arrow"><img src="/assets/images/arr-d.png" alt="" /></a>
+		</div>
+		<div class="container">
+			<div class="plan-examples"><button class="banner-arrow arr-l"></button><button class="banner-arrow arr-r"></button>
+				<div class="plan-slider">
+					<div class="slider-item">
+						<div class="plan-item big-img-container"><a href="/assets/images/ex3.jpg" class="plan-item__img big-img"><img src="/assets/images/ex3.jpg"
+								 alt="" /></a>
+							<div class="plan-item__info">
+								<h4 class="plan-item__title">Осталось только 2 зуба</h4>
+								<p class="plan-item__text">- полная имплантация на штифтах<br />- протезирование<br />- полная имплантация на
+									коронках<br />- другое решение</p>
+							</div>
+						</div>
+					</div>
+					<div class="slider-item">
+						<div class="plan-item big-img-container"><a href="/assets/images/ex3.jpg" class="plan-item__img big-img"><img src="/assets/images/ex3.jpg"
+								 alt="" /></a>
+							<div class="plan-item__info">
+								<h4 class="plan-item__title">Осталось только 2 зуба</h4>
+								<p class="plan-item__text">- полная имплантация на штифтах<br />- протезирование<br />- полная имплантация на
+									коронках<br />- другое решение</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="plan-steps">
+				<div class="plan-step up-img">
+					<div class="plan-step__img"><img src="/assets/images/ps-1.png" alt="" /></div>
+					<div class="plan-step__info">
+						<h4 class="plan-step__title">Сделаем снимок</h4>
+						<p class="plan-step__text">Врач и пациент в «Медстар» – партнеры. Стоматологи в деталях рассказывают о ситуации,
+							прогнозах, рисках, предлагают несколько вариантов.</p>
+					</div>
+				</div>
+				<div class="plan-step up-img">
+					<div class="plan-step__img"><img src="/assets/images/ps-2.png" alt="" /></div>
+					<div class="plan-step__info">
+						<h4 class="plan-step__title">Покажем проблемы</h4>
+						<p class="plan-step__text">Врач и пациент в «Медстар» – партнеры. Стоматологи в деталях рассказывают о ситуации,
+							прогнозах, рисках, предлагают несколько вариантов.</p>
+					</div>
+				</div>
+				<div class="plan-step up-img">
+					<div class="plan-step__img"><img src="/assets/images/ps-3.png" alt="" /></div>
+					<div class="plan-step__info">
+						<h4 class="plan-step__title">Выявим ошибки</h4>
+						<p class="plan-step__text">Врач и пациент в «Медстар» – партнеры. Стоматологи в деталях рассказывают о ситуации,
+							прогнозах, рисках, предлагают несколько вариантов.</p>
+					</div>
+				</div>
+				<div class="plan-step up-img">
+					<div class="plan-step__img"><img src="/assets/images/ps-4.png" alt="" /></div>
+					<div class="plan-step__info">
+						<h4 class="plan-step__title">Составим новый план</h4>
+						<p class="plan-step__text">Врач и пациент в «Медстар» – партнеры. Стоматологи в деталях рассказывают о ситуации,
+							прогнозах, рисках, предлагают несколько вариантов.</p>
+					</div>
+				</div>
+				<div class="plan-result-area">
+					<p class="plan-result-area__title">Результат:</p>
+					<p class="plan-result-area__text">Составленный план лечения в комфортный для вас бюджет и срок</p>
+				</div>
+			</div>
+		</div>
+		<div class="contacts">
+			<div class="contacts__container container">
+				<h2 class="title">Оставьте свои контактные данные</h2>
+				<h3 class="sub-title">наш менеджер свяжется с вами и запишет на удобное время</h3>
+				<div class="contacts__form">
+					<form action="/" method="post"><input type="text" name="name" placeholder="Ваше имя" class="contacts__input base-input required" /><input
+						 type="tel" name="phone" placeholder="Ваш телефон" class="contacts__input base-input required" /><button type="submit"
+						 class="contacts__input base-btn"><span class="text">Записаться на прием</span></button>
+						<div class="policy active">
+							<div class="policy__check"></div>
+							<p class="policy__text">отправляя заявку, вы соглашаетесь с <a href="/policy.html">политикой конфиденциальности</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer__container container">
+				<div class="footer__logo-area"><a href="/" class="footer__logo"><img src="/assets/images/logo2.png" alt="" /></a><a
+					 href="" class="btn-version f-link">версия для слабовидящих</a></div>
+				<div class="f-block"><a href="/" class="f-link">Юридическая информация</a><a href="/" class="f-link">Политика
+						конфиденциальности</a><a href="/" class="f-link">Политика обработки данных</a></div>
+				<div class="f-block"><a href="/" class="f-link child">Для детей</a><a href="/" class="f-link teen">Для подростков</a><a
+					 href="/" class="f-link adult">Для взрослых</a></div>
+				<div class="f-block"><a href="/" class="f-link">Врачи</a><a href="/" class="f-link">Цены</a><a href="/" class="f-link">Примеры
+						работ</a></div>
+				<div class="f-block"><a href="/" class="f-link">Скидки и акции</a><a href="/" class="f-link">Отзывы</a><a href="/"
+					 class="f-link">Контакты</a></div><a href="" class="f-developers"><img src="/assets/images/dev-logo.png" alt="" /></a>
+			</div>
+		</div>
+		<div class="nav nav-footer">
+			<div class="nav__container container"><a href="/" class="nav-link">О клинике</a><a href="/" class="nav-link">технологии</a><a
+				 href="/" class="nav-link">Новости</a><a href="/" class="nav-link">Вакансии</a><a href="/" class="nav-link">Отзывы</a><a
+				 href="/" class="nav-link">Блог</a><a href="/" class="nav-link">Зуботехнический центр</a><a href="/" class="nav-link">Написать
+					директору</a><a href="/" class="nav-link">Магазин медтехники</a></div>
+		</div>
+		<script src="/assets/scripts/source/vendor.js"></script>
+		<!--+scripts(['source/jquery.maskedinput.min.js'])-->
+		<script src="/assets/scripts/source/jquery.inputmask.bundle.js"></script>
+		<script src="/assets/scripts/app.min.js"></script>
+	</body>
+
+</html>
