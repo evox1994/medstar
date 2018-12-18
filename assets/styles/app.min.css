@@ -433,7 +433,7 @@ a.bg-child:hover {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background: url("/assets/images/p-arr.png") no-repeat;
+  background: url("assets/images/p-arr.png") no-repeat;
   opacity: 0;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -1059,7 +1059,7 @@ a.bg-child:hover {
   top: 0;
   width: 14px;
   height: 13px;
-  background: url("/assets/images/b-icon4.png") no-repeat;
+  background: url("assets/images/b-icon4.png") no-repeat;
 }
 .action-block {
   margin-bottom: 40px;
@@ -1091,10 +1091,10 @@ a.bg-child:hover {
   background: #62b3ff;
 }
 .bg-action-banner2 .banner-arrow.arr-l:after {
-  background: url("/assets/images/b-arr-l1.png") no-repeat;
+  background: url("assets/images/b-arr-l1.png") no-repeat;
 }
 .bg-action-banner2 .banner-arrow.arr-r:after {
-  background: url("/assets/images/b-arr-r1.png") no-repeat;
+  background: url("assets/images/b-arr-r1.png") no-repeat;
 }
 .action-banner {
   padding: 20px 8px 5px 8px;
@@ -1274,7 +1274,7 @@ a.bg-child:hover {
 .asnwer-content__qw {
   width: 26px;
   height: 26px;
-  background: url("/assets/images/qw1.png") no-repeat;
+  background: url("assets/images/qw1.png") no-repeat;
 }
 .asnwer-content__title {
   margin-left: 45px;
@@ -1288,7 +1288,7 @@ a.bg-child:hover {
   right: 0;
   top: 50%;
   margin-top: -15px;
-  background: url("/assets/images/qwr.png") no-repeat;
+  background: url("assets/images/qwr.png") no-repeat;
   width: 30px;
   height: 30px;
   -webkit-transition: all 0.3s ease;
@@ -1298,7 +1298,7 @@ a.bg-child:hover {
   color: #303033;
 }
 .price-row:hover .asnwer-content__qw {
-  background: url("/assets/images/qw2.png") no-repeat;
+  background: url("assets/images/qw2.png") no-repeat;
 }
 .price-row.active .asnwer-content__arr {
   -webkit-transform: rotate(-90deg);
@@ -1334,7 +1334,7 @@ a.bg-child:hover {
   top: 0;
   width: 14px;
   height: 13px;
-  background: url("/assets/images/b-icon1.png") no-repeat;
+  background: url("assets/images/b-icon1.png") no-repeat;
 }
 .banner-about .banner-item .banner-item__title {
   font-weight: 500;
@@ -1360,7 +1360,7 @@ a.bg-child:hover {
   top: 0;
   width: 14px;
   height: 15px;
-  background: url("/assets/images/b-icon10.png") no-repeat;
+  background: url("assets/images/b-icon10.png") no-repeat;
 }
 .banner-answers .banner-item {
   color: #fff;
@@ -1402,7 +1402,7 @@ a.bg-child:hover {
   top: 0px;
   width: 17px;
   height: 16px;
-  background: url("/assets/images/b-icon9.png") no-repeat;
+  background: url("assets/images/b-icon9.png") no-repeat;
 }
 .banner-more-blog .banner-item .banner-item__title {
   font-weight: 500;
@@ -1422,7 +1422,7 @@ a.bg-child:hover {
   top: 0px;
   width: 17px;
   height: 16px;
-  background: url("/assets/images/b-icon9.png") no-repeat;
+  background: url("assets/images/b-icon9.png") no-repeat;
 }
 .banner-blog .banner-item {
   color: #fff;
@@ -1495,12 +1495,12 @@ a.bg-child:hover {
   top: 1px;
 }
 .banner-block-content__date:before {
-  background: url("/assets/images/calendar.png") no-repeat;
+  background: url("assets/images/calendar.png") no-repeat;
   width: 20px;
   height: 22px;
 }
 .banner-block-content__count:before {
-  background: url("/assets/images/eye1.png") no-repeat;
+  background: url("assets/images/eye1.png") no-repeat;
   width: 32px;
   height: 20px;
 }
@@ -1515,7 +1515,7 @@ a.bg-child:hover {
   top: 0;
   width: 14px;
   height: 13px;
-  background: url("/assets/images/b-icon6.png") no-repeat;
+  background: url("assets/images/b-icon6.png") no-repeat;
 }
 .banner-child-service .banner-item {
   color: #fff;
@@ -1544,7 +1544,7 @@ a.bg-child:hover {
   top: 0;
   width: 14px;
   height: 13px;
-  background: url("/assets/images/b-icon3.png") no-repeat;
+  background: url("assets/images/b-icon3.png") no-repeat;
 }
 .banner-child .banner-item {
   color: #fff;
@@ -1573,7 +1573,7 @@ a.bg-child:hover {
   top: 0;
   width: 14px;
   height: 13px;
-  background: url("/assets/images/b-icon2.png") no-repeat;
+  background: url("assets/images/b-icon2.png") no-repeat;
 }
 .banner-dc .banner-item {
   color: #fff;
@@ -1606,7 +1606,7 @@ a.bg-child:hover {
   top: 0;
   width: 14px;
   height: 15px;
-  background: url("/assets/images/b-icon2.png") no-repeat;
+  background: url("assets/images/b-icon2.png") no-repeat;
 }
 .banner-doctors .banner-item {
   color: #fff;
@@ -1640,7 +1640,7 @@ a.bg-child:hover {
   top: 0;
   width: 14px;
   height: 15px;
-  background: url("/assets/images/b-icon2.png") no-repeat;
+  background: url("assets/images/b-icon2.png") no-repeat;
 }
 .banner-prices .banner-item {
   color: #fff;
@@ -1668,7 +1668,7 @@ a.bg-child:hover {
   top: 0;
   width: 14px;
   height: 13px;
-  background: url("/assets/images/b-icon7.png") no-repeat;
+  background: url("assets/images/b-icon7.png") no-repeat;
 }
 .banner-reviews .banner-item {
   color: #fff;
@@ -1691,7 +1691,7 @@ a.bg-child:hover {
   top: 0;
   width: 14px;
   height: 13px;
-  background: url("/assets/images/b-icon1.png") no-repeat;
+  background: url("assets/images/b-icon1.png") no-repeat;
 }
 .banner-service .banner-item {
   color: #fff;
@@ -1714,7 +1714,7 @@ a.bg-child:hover {
   top: -1px;
   width: 17px;
   height: 16px;
-  background: url("/assets/images/b-icon8.png") no-repeat;
+  background: url("assets/images/b-icon8.png") no-repeat;
 }
 .banner-shop .banner-item {
   color: #fff;
@@ -1742,7 +1742,7 @@ a.bg-child:hover {
   top: -1px;
   width: 17px;
   height: 16px;
-  background: url("/assets/images/b-icon8.png") no-repeat;
+  background: url("assets/images/b-icon8.png") no-repeat;
 }
 .banner-tech .banner-item {
   color: #fff;
@@ -1774,7 +1774,7 @@ a.bg-child:hover {
   position: absolute;
   left: 0;
   top: 2px;
-  background: url("/assets/images/b-icon.png") no-repeat;
+  background: url("assets/images/b-icon.png") no-repeat;
   width: 13px;
   height: 13px;
 }
@@ -1876,20 +1876,20 @@ a.bg-child:hover {
 }
 .banner-arrow.arr-l:after {
   margin-left: -7px;
-  background: url("/assets/images/b-arr-l.png") no-repeat;
+  background: url("assets/images/b-arr-l.png") no-repeat;
 }
 .banner-arrow.arr-l:hover:after {
-  background: url("/assets/images/b-arr-l-h.png") no-repeat;
+  background: url("assets/images/b-arr-l-h.png") no-repeat;
 }
 .banner-arrow.arr-r {
   right: 0;
 }
 .banner-arrow.arr-r:after {
   margin-left: -3.5px;
-  background: url("/assets/images/b-arr-r.png") no-repeat;
+  background: url("assets/images/b-arr-r.png") no-repeat;
 }
 .banner-arrow.arr-r:hover:after {
-  background: url("/assets/images/b-arr-r-h.png") no-repeat;
+  background: url("assets/images/b-arr-r-h.png") no-repeat;
 }
 @media only screen and (max-width: 875px) {
   .banner {
@@ -2079,7 +2079,7 @@ a.bg-child:hover {
   margin-top: -3px;
   width: 18px;
   height: 10px;
-  background: url("/assets/images/r-arr.png") no-repeat;
+  background: url("assets/images/r-arr.png") no-repeat;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -3097,7 +3097,7 @@ a.bg-child:hover {
   top: 1px;
   width: 14px;
   height: 15px;
-  background: url("/assets/images/b-icon5.png") no-repeat;
+  background: url("assets/images/b-icon5.png") no-repeat;
 }
 .doctor-face-more__container {
   padding-top: 80px;
@@ -4056,7 +4056,7 @@ a.bg-child:hover {
   left: 0;
   width: 20px;
   height: 14px;
-  background: url("/assets/images/eye.png") no-repeat;
+  background: url("assets/images/eye.png") no-repeat;
 }
 .nav.nav-footer {
   position: static;
@@ -4521,7 +4521,7 @@ a.child:hover {
   left: 0;
   width: 90px;
   height: 74px;
-  background: url("/assets/images/fnews.png") no-repeat;
+  background: url("assets/images/fnews.png") no-repeat;
 }
 .news-content__content {
   margin-top: 70px;
@@ -4622,7 +4622,7 @@ a.child:hover {
   margin-top: 20px;
   width: 128px;
   height: 156px;
-  background: url("/assets/images/nccoin.png") no-repeat;
+  background: url("assets/images/nccoin.png") no-repeat;
 }
 .news-fix-form__btn {
   width: 190px;
@@ -4786,7 +4786,7 @@ a.child:hover {
           transform: translate(-50%, -50%);
   width: 22px;
   height: 22px;
-  background: url("/assets/images/copy.png") no-repeat;
+  background: url("assets/images/copy.png") no-repeat;
 }
 .share-elem__copy span.text {
   display: none;
@@ -5560,7 +5560,7 @@ a.child:hover {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  background: url("/assets/images/r-title.jpg") no-repeat;
+  background: url("assets/images/r-title.jpg") no-repeat;
   text-align: center;
 }
 .reviews-search__title .text {
@@ -5606,7 +5606,7 @@ a.child:hover {
   margin-top: -3px;
   width: 18px;
   height: 10px;
-  background: url("/assets/images/r-arr.png") no-repeat;
+  background: url("assets/images/r-arr.png") no-repeat;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -5659,7 +5659,7 @@ a.child:hover {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background: url("/assets/images/p-arr.png") no-repeat;
+  background: url("assets/images/p-arr.png") no-repeat;
 }
 .filter-review-item__text {
   font-size: 16px;
@@ -5683,7 +5683,7 @@ a.child:hover {
   height: 203px;
   top: 100px;
   right: 15px;
-  background: url("/assets/images/r-logo.png") no-repeat;
+  background: url("assets/images/r-logo.png") no-repeat;
   z-index: 1;
 }
 .reviews-clinic:before {
@@ -6610,7 +6610,7 @@ a.child:hover {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background: url("/assets/images/p-arr.png") no-repeat;
+  background: url("assets/images/p-arr.png") no-repeat;
 }
 .step-qw__text {
   font-size: 16px;
