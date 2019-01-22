@@ -455,9 +455,15 @@
 					<h2 class="title">Оставьте своё резюме</h2>
 					<h3 class="sub-title">Мы рассмотрим заявку и наш менеджер свяжется с вами</h3>
 					<div class="contacts__form">
-						<form action="/" method="post"><input type="text" name="name" placeholder="Ваше имя" class="contacts__input base-input required" /><input
-							 type="tel" name="phone" placeholder="Ваш телефон" class="contacts__input base-input required" /><button type="submit"
-							 class="contacts__input base-btn"><span class="text">Записаться на прием</span></button>
+						<form action="/" method="post">
+							<input type="text" name="vacancy" placeholder="Какая вакансия Вас интересует?" class="contacts__input base-input required" />
+							<div class="input-file-wrap">
+								<div class="input-file-mask contacts__input base-input not-active"><span>Прикрепить резюме</span></div>
+								<input type="file" name="file">
+							</div>
+							<input type="text" name="name" placeholder="Ваше имя" class="contacts__input base-input required" />
+							<input type="tel" name="phone" placeholder="Ваш телефон" class="contacts__input base-input required" />
+							<button type="submit" class="contacts__input base-btn"><span class="text">Записаться на прием</span></button>
 							<div class="policy active">
 								<div class="policy__check"></div>
 								<p class="policy__text">отправляя заявку, вы соглашаетесь с <a href="/policy.html">политикой конфиденциальности</a></p>

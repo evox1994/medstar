@@ -1376,7 +1376,7 @@ a.bg-child:hover {
   font-size: 16px;
   font-weight: 300;
 }
-.banner-answers .banner-item .banner-item__btn {
+/*.banner-answers .banner-item .banner-item__btn {
   background: #fff;
 }
 .banner-answers .banner-item .banner-item__btn span.text {
@@ -1384,7 +1384,7 @@ a.bg-child:hover {
 }
 .banner-answers .banner-item .banner-item__btn:hover {
   background: #e6dbdb;
-}
+}*/
 @media only screen and (max-width: 875px) {
   .banner-answers .banner-item {
     position: relative;
@@ -2636,6 +2636,20 @@ a.bg-child:hover {
   margin-right: auto;
   max-width: 350px;
   width: 100%;
+}
+.input-file-wrap input {
+  display: none;
+}
+.input-file-wrap .input-file-mask {
+  box-sizing: border-box;
+  padding: 15px 10px;
+  overflow: hidden;
+}
+.input-file-wrap .input-file-mask.not-active {
+  color: #6c7380;
+}
+.input-file-wrap .input-file-mask:hover {
+  cursor: pointer;
 }
 .contacts__input {
   width: 100%;
